@@ -3,13 +3,14 @@
     padding: 31px;
     display: flex;
     flex-direction: row;
+    justify-content: right;
   }
   &-logo {
     position: relative;
     display: flex;
     align-items: center;
     cursor: pointer;
-    margin-right: 100vh;
+    flex-grow: 1;
   }
   &-menu {
     display: flex;
