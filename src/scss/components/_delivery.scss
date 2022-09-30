@@ -1,0 +1,47 @@
+.delivery {
+  color: var(--menu-color);
+  text-align: center;
+  &-title {
+    margin-top: 143px;
+  }
+  &-descr {
+    padding: 0 150px;
+  }
+  &-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 33px;
+    margin-top: 43px;
+  }
+  &-item {
+    width: 30%;
+    display: flex;
+    &_left {
+      width: 48px;
+      height: 48px;
+      img {
+        max-width: fit-content;
+      }
+    }
+    &_right {
+      text-align: left;
+      margin-left: 16px;
+    }
+    &_title {
+      padding-top: 0;
+      margin-bottom: 11px;
+    }
+  }
+  &-link {
+    margin-top: 22px;
+    font-size: 20px;
+    a {
+      display: inline-block;
+      margin: 0 10px;
+      &:after {
+        width: 100%;
+      }
+    }
+  }
+}
