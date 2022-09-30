@@ -1,0 +1,35 @@
+.about {
+  color: var(--menu-color);
+  text-align: center;
+  &-title {
+    margin-top: 78px;
+  }
+  &-descr {
+    padding: 0 20px;
+  }
+  &-item {
+    display: flex;
+    margin-top: 64px;
+    &:first-child {
+      margin-top: 28px;
+    }
+    &_left {
+      width: 50%;
+      text-align: left;
+      align-self: center;
+    }
+    &_right {
+      width: 50%;
+      align-self: center;
+    }
+    &_title {
+      margin-bottom: 19px;
+    }
+    &_descr {
+      font-size: 18px;
+    }
+    &_text {
+      text-align: left;
+    }
+  }
+}
