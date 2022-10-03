@@ -1,0 +1,37 @@
+.reliability {
+  color: var(--menu-color);
+  text-align: center;
+  &-title {
+    margin-top: 143px;
+  }
+  &-descr {
+    padding: 0 75px;
+  }
+  &-container {
+    display: flex;
+    gap: 33px;
+    margin-top: 48px;
+  }
+  &-item {
+    &_title {
+      margin-bottom: 11px;
+    }
+  }
+  &-bottom {
+    background: rgba(218, 222, 223, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 40px;
+    margin-top: 62px;
+    margin-bottom: 144px;
+  }
+  &-icon {
+    width: 40px;
+    height: 40px;
+  }
+  &-text  {
+    font-weight: 500;
+    font-size: 18px;
+  }
+}
