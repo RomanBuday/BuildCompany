@@ -1,0 +1,47 @@
+.creator {
+  background: #212B31;
+  color: var(--light-color);
+  padding: 143px 0 118px 0;
+  &-container {
+    display: flex;
+  }
+  &-title {
+    font-size: 32px;
+    margin: 0;
+    margin-bottom: 26px;
+  }
+  &-left {
+    width: 589px;
+    margin-right: 53px;
+    &_circle {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #fff;
+    }
+  }
+  &-item {
+    &_title {
+      font-size: 18px;
+      margin: 0;
+      margin-bottom: 10px;
+      margin-top: 24px;
+    }
+    &_descr {
+      line-height: 24px;
+      color: rgba(255, 255, 255, 0.75);
+    }
+  }
+  &-btn {
+    margin-top: 50px;
+    &_more {
+      margin-right: 16px;
+    }
+  }
+  &-bottom {
+    &_container {
+      display: flex;
+      margin-top: 127px;
+    }
+  }
+}
